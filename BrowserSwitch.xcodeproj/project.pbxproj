@@ -1,0 +1,184 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023DB8A82289FBF20076ABA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 023DB8A72289FBF20076ABA8 /* AppDelegate.m */; };
+		023DB8AA2289FBF20076ABA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 023DB8A92289FBF20076ABA8 /* main.m */; };
+		023DB8C52289FEA40076ABA8 /* safari.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 023DB8C42289FEA40076ABA8 /* safari.tiff */; };
+		023DB8C72289FED10076ABA8 /* firefox.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 023DB8C62289FED10076ABA8 /* firefox.tiff */; };
+		023DB8C9228A02A70076ABA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023DB8C8228A02A70076ABA8 /* Foundation.framework */; };
+		023DB8CB228A02B80076ABA8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023DB8CA228A02B80076ABA8 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		023DB8A12289FBF20076ABA8 /* BrowserSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrowserSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		023DB8A52289FBF20076ABA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = BrowserSwitch/Info.plist; sourceTree = "<group>"; };
+		023DB8A62289FBF20076ABA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BrowserSwitch/AppDelegate.h; sourceTree = "<group>"; };
+		023DB8A72289FBF20076ABA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BrowserSwitch/AppDelegate.m; sourceTree = "<group>"; };
+		023DB8A92289FBF20076ABA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BrowserSwitch/main.m; sourceTree = "<group>"; };
+		023DB8C42289FEA40076ABA8 /* safari.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = safari.tiff; sourceTree = "<group>"; };
+		023DB8C62289FED10076ABA8 /* firefox.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = firefox.tiff; sourceTree = "<group>"; };
+		023DB8C8228A02A70076ABA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		023DB8CA228A02B80076ABA8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		023DB89E2289FBF20076ABA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023DB8CB228A02B80076ABA8 /* Cocoa.framework in Frameworks */,
+				023DB8C9228A02A70076ABA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		023DB8982289FBF20076ABA8 = {
+			isa = PBXGroup;
+			children = (
+				023DB8A62289FBF20076ABA8 /* AppDelegate.h */,
+				023DB8A72289FBF20076ABA8 /* AppDelegate.m */,
+				023DB8A52289FBF20076ABA8 /* Info.plist */,
+				023DB8A92289FBF20076ABA8 /* main.m */,
+				023DB8C42289FEA40076ABA8 /* safari.tiff */,
+				023DB8C62289FED10076ABA8 /* firefox.tiff */,
+				023DB8C8228A02A70076ABA8 /* Foundation.framework */,
+				023DB8CA228A02B80076ABA8 /* Cocoa.framework */,
+				023DB8A22289FBF20076ABA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		023DB8A22289FBF20076ABA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				023DB8A12289FBF20076ABA8 /* BrowserSwitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		023DB8A02289FBF20076ABA8 /* BrowserSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 023DB8BE2289FBF30076ABA8 /* Build configuration list for PBXNativeTarget "BrowserSwitch" */;
+			buildPhases = (
+				023DB89D2289FBF20076ABA8 /* Sources */,
+				023DB89E2289FBF20076ABA8 /* Frameworks */,
+				023DB89F2289FBF20076ABA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrowserSwitch;
+			productName = BrowserSwitch;
+			productReference = 023DB8A12289FBF20076ABA8 /* BrowserSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		023DB8992289FBF20076ABA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = xif;
+				TargetAttributes = {
+					023DB8A02289FBF20076ABA8 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 023DB89C2289FBF20076ABA8 /* Build configuration list for PBXProject "BrowserSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 023DB8982289FBF20076ABA8;
+			productRefGroup = 023DB8A22289FBF20076ABA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				023DB8A02289FBF20076ABA8 /* BrowserSwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		023DB89F2289FBF20076ABA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023DB8C52289FEA40076ABA8 /* safari.tiff in Resources */,
+				023DB8C72289FED10076ABA8 /* firefox.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		023DB89D2289FBF20076ABA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023DB8AA2289FBF20076ABA8 /* main.m in Sources */,
+				023DB8A82289FBF20076ABA8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		023DB8BD2289FBF30076ABA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+			};
+			name = Release;
+		};
+		023DB8C02289FBF30076ABA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BrowserSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		023DB89C2289FBF20076ABA8 /* Build configuration list for PBXProject "BrowserSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023DB8BD2289FBF30076ABA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		023DB8BE2289FBF30076ABA8 /* Build configuration list for PBXNativeTarget "BrowserSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023DB8C02289FBF30076ABA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 023DB8992289FBF20076ABA8 /* Project object */;
+}
